@@ -3,7 +3,7 @@ const target2 = document.getElementById("target2");
 const target3 = document.getElementById("target3");
 const target4 = document.getElementById("target4");
 const target5 = document.getElementById("target5");
-const atual = 1;
+let atual = 1;
 
 target1.addEventListener("targetFound", (event) => {
   atual = 2;
@@ -51,7 +51,7 @@ function alertas() {
   }
   if (atual == 4) {
     alert(
-      " Pode me encontrar em 1947, no esconderijo do  nº 263 de Prinsengracht"
+      "Pode me encontrar em 1947, no esconderijo do  nº 263 de Prinsengracht"
     );
   }
   if (atual == 5) {
