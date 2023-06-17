@@ -3,7 +3,7 @@ const target2 = document.getElementById("target2");
 const target3 = document.getElementById("target3");
 const target4 = document.getElementById("target4");
 const target5 = document.getElementById("target5");
-const atual = 1; //Antes tava const, e const não muda o valor, mesmo atualizando ele.
+let atual = 1; //Antes tava const, e const não muda o valor, mesmo atualizando ele.
 //Com o let o valor pode ser atualizado. :)
 
 target1.addEventListener("targetFound", (event) => {
