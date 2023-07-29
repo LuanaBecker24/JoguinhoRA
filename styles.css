@@ -1,3 +1,9 @@
+*{
+    margin: 0rem;
+    padding: 0rem;
+}
+
+
 body{
     display: grid;
     justify-content: center;
